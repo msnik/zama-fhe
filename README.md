@@ -38,25 +38,11 @@ npm install
 
 Replace `hardhat.config.ts` file:
 ```
-curl -o hardhat.config.ts https://raw.githubusercontent.com/0xmoei/zama-fhe/refs/heads/main/hardhat.config.ts
+curl -o hardhat.config.ts https://raw.githubusercontent.com/msnik/zama-fhe/refs/heads/main/hardhat.config.ts
 ```
+# edit hardhat.config.ts and set privatekey, rpcurl
 
-Set Sepolia RPC:
-```
-npx hardhat vars set SEPOLIA_RPC_URL
-```
-* It prompts you to enter a Sepolia RPC, you can use `https://ethereum-sepolia-rpc.publicnode.com`
-
-Set Privatekey:
-```
-npx hardhat vars set PRIVATE_KEY
-```
-* It prompts you to enter a privatekey, enter without `0x` perfix.
-
-Verify your wallet:
-```
-npx hardhat accounts --network sepolia
-```
+nano hardhat.config.ts
 
 Compile and Deploy:
 ```
