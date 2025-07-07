@@ -41,9 +41,9 @@ Replace `hardhat.config.ts` file:
 curl -o hardhat.config.ts https://raw.githubusercontent.com/msnik/zama-fhe/refs/heads/main/hardhat.config.ts
 ```
 # edit hardhat.config.ts and set privatekey, rpcurl
-
+```
 nano hardhat.config.ts
-
+```
 Compile and Deploy:
 ```
 # Compile
